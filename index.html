@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Comparative Media Dataset from Web Crawl Data</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/scipo.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<div class="withbg">
+					<h4>ODISSEI Conference 2024</h4>
+					<h3>Comparative Media Dataset from Web Crawl Data</h3>
+					<h4 style ="color:#333">Justin Chun-ting Ho, Marthe Möller,<br>Joanna Strycharz, Anne Kroon
+					</h4>
+
+					<small>Amsterdam School of Communication Research</small>
+
+					<small>Funded by ASCoR Mid-Size Collaborative Research Projects Grant</small>
+
+					<p><img src="uvalogo.png" width="25%" style="background:none; border:none; box-shadow:none;">
+						<img src="ascorlogo.png" width="35%" style="background:none; border:none; box-shadow:none;"></p>
+					<!-- <p><b>Slides: <a href="http://bit.ly/CAT4SMR_slides">http://bit.ly/CAT4SMR_slides</a></b></p> -->
+
+				</div>
+			</section>
+				<section>
+					<img src="bubbletea.jpg" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<img src="nexis1.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<img src="nexis2.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<img src="nexis3.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<img src="nexis4.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section data-background-size="70%" data-background="nexis5.png">
+					<div class="fragment" style="background-color:rgba(255,255,255,0.8);">
+						<h3>But...</h3>
+						<ul>
+							<li class="fragment">Rate limits after ONE request</li>
+							<li class="fragment" >Did I mention it returns data in PDF?</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>Alternatives?</h2>
+				</section>
+				<section data-background-size="70%" data-background="cap.png">
+					<div class="fragment" style="background-color:rgba(255,255,255,0.9);">
+						<h3>But...</h3>
+						<ul>
+							<li class="fragment">Very LIMITED data</li>
+							<li class="fragment" >20 out of 28 cases are from US/Europe</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h3>Problems</h3>
+					<p><ul>
+						<li>Accessibility</li>
+						<li>Reproducibility</li>
+						<li>Representativeness</li>
+					</ul></p>
+				</section>
+				<section>
+					<h2>Solution?</h2>
+				</section>
+				<section data-background-size="70%" data-background="cc.png">
+				</section>
+				<section>
+					<h2>But...</h2>
+				</section>
+				<section data-background-size="70%" data-background="ccnews.png">
+				</section>
+				<section>
+					<h3>Curating the Comparative Media Dataset</h3>
+					<p><ul>
+						<li>Top outlets in 16 countries (5 in Europe, 5 in Asia, 5 in Americas, and 1 in Africa)</li>
+						<li>600 annotators per country</li>
+						<li>6 concepts from most cited papers in communication science (including Topic, Sentiment, Frame)</li>
+					</ul></p>
+				</section>
+				<section>
+					<h2>But can I share it?</h2>
+				</section>
+				<section>
+					<img src="copyright.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<h3>Workaround</h3>
+					<p><ul>
+						<li>Took inspiration from Twitter datasets</li>
+						<li>A Python package to download articles from CommonCrawl can construct the dataset locally</li>
+						<li>More info: <br><a href="https://github.com/Digicomlab/Comparative-Media-Dataset">github.com/Digicomlab/Comparative-Media-Dataset</a><br>
+											<img src="qr_emgju.png" width="20%" style="background:none; border:none; box-shadow:none;"></li>
+					</ul></p>
+				</section>
+				<section>
+					<h2>One More Thing</h2>
+				</section>
+				<section>
+					<h4>Open Data Platform for Annotated Datasets (ODPAD)</h4>
+					<img src="odpad.png" width="100%" style="background:none; border:none; box-shadow:none;">
+				</section>
+				<section>
+					<h3>Special Thanks</h3>
+					<p>Qiru Huo</p>
+					<p>Dongdong Zhu</p>
+				</section>
+				<section>
+					<h2>Thank You!</h2>
+					<h4>Twitter/X: @justin_ct_ho<br>
+						Bluesky: @justinho.bsky.social<br>
+						Github: justinchuntingho<br>
+					Email: j.c.ho@uva.nl</h4>
+				</section>
+				</div>
+			</div>
+
+			<script src="dist/reveal.js"></script>
+			<script src="plugin/notes/notes.js"></script>
+			<script src="plugin/markdown/markdown.js"></script>
+			<script src="plugin/highlight/highlight.js"></script>
+			<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+				Reveal.initialize({
+					hash: true,
+					slideNumber: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				});
+			</script>
+		</body>
+		</html>
